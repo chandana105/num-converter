@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #6B7280;
+  --width-break: 600px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  /* color: var(--gray); */
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+}
+
+main {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+main textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  /* padding: 1rem; */
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  border: 1px solid #000;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+  background-color: var(--primary-color);
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 3rem;
+  font-size: large;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  padding: 1rem;
+  overflow: scroll;
+  border: 1px solid var(--primary-color);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+  border-top-right-radius: 1rem;
+
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
