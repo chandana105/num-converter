@@ -47,6 +47,7 @@ button {
   padding: 1rem 3rem;
   font-size: large;
   font-family: 'Source Sans Pro', sans-serif;
+  cursor:pointer;
 }
 
 
