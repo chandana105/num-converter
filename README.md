@@ -1,2 +1,2 @@
-# emoji-translator
-This application is made with javascript,converts from text to text filled with relevant emojis.
+# number-convertor
+This application is made with javascript,converts numbers to words.
